@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to right top,
+    #4e699a,
+    #5f75a1,
+    #7081a7,
+    #808dae,
+    #909ab4,
+    #999db8,
+    #a2a1bc,
+    #aba4bf,
+    #b49dbc,
+    #bf96b3,
+    #ca8ea6,
+    #d18895
+  );
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff98a2;
+}
+
+header {
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+.content-card {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.button-icon {
+  display: flex;
+  border: 3px #fff solid;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.icon {
+  background-color: #fff;
+  padding: 10px 10px 5px 10px;
+}
+
+.icon svg {
+  width: 25px;
+  height: 25px;
+}
+
+.cube {
+  transition: all 0.4s;
+  transform-style: preserve-3d;
+  width: 200px;
+  height: 20px;
+  background: linear-gradient(45deg, #ff98a2, #222229);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-icon:hover {
+  border-color: #ff98a2;
+}
+
+.button-icon:hover .cube {
+  transform: rotateX(90deg);
+}
+
+.side {
+  position: absolute;
+  height: 47px;
+  width: 200px;
+  display: flex;
+  font-size: 0.8em;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.top {
+  background: #ff98a2;
+  color: #fff;
+  transform: rotateX(-90deg) translate3d(0, 13.5px, 2em);
+}
+
+.front {
+  background: #222229;
+  color: #fff;
+  transform: translate3d(0, 0, 1em);
+}
+
+#projects .project {
+  background-color: rgba(255, 255, 255, 0.25);
+  padding: 30px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #222229;
+  color: #fff;
+}
