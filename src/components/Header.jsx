@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <>
       <header>
-        <h1>Ryan Fields</h1>
+        <a href="http://localhost:5176/">
+          <h1>Ryan Fields</h1>
+        </a>
         <p>FullStack Web Developer</p>
         <nav>
           <ul>
