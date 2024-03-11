@@ -19,7 +19,7 @@ const Contact = () => {
             className="button-icon"
           >
             <div className="icon">
-              <img src="linkedin.png" alt="LinkedIn Logo" />
+              <img src="src/linkedin.png" alt="LinkedIn Logo" />
             </div>
             <div className="cube">
               <span className="side front">Hover Me</span>
